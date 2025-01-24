@@ -7,10 +7,10 @@ Este repositorio contiene la solución a la prueba técnica que se nos solicitó
 1. **Solución Teórica**
    - La solución teórica, junto con las explicaciones de los algoritmos y las sentencias SQL, se encuentran en el archivo [**Skandia.md**](./Skandia.md). 
    - Dentro de **Skandia.md** podrás encontrar:
-     - La **explicación teórica** sobre los problemas resueltos.
-     - **Algoritmos implementados** con ejemplos y descripciones.
+     - La **explicación teórica** sobre las preguntas realizadas.
+     - **Algoritmos implementados** enunciado del algorimto y codigo.
      - **Sentencias SQL** utilizadas para resolver cada uno de los ejercicios.
-     - **Pantallazos de las querys SQL** que muestran los resultados obtenidos para cada consulta.
+     - **ScreenShots de las querys SQL** que muestran los resultados obtenidos para cada consulta.
 
 2. **Código del Proyecto en Java**
    - El código fuente de la solución de los algoritmos está ubicado en la carpeta `./Algoritmos/src`.
@@ -24,8 +24,7 @@ Este repositorio contiene la solución a la prueba técnica que se nos solicitó
 
 3. **Base de Datos**
    - En la carpeta `./Database` se encuentran los scripts para crear y poblar la base de datos requerida en la prueba técnica.
-     - `CreateDB.sql`: Script para crear la base de datos.
-     - `AcmeDB.sql`: Script para llenar la base de datos con datos de ejemplo.
+     - `AcmeDb.sql`: Script para crear la base de datos y llenar la base de datos con datos de ejemplo.
 
 
 ## Instrucciones de Uso
@@ -35,8 +34,8 @@ Este repositorio contiene la solución a la prueba técnica que se nos solicitó
    - Ejecuta la clase `Main.java` para probar los algoritmos implementados.
 
 2. **Para crear y poblar la base de datos**:
-   - Ejecuta el script `CreateDB.sql` en tu gestor de bases de datos para crear la estructura de la base de datos.
-   - Luego, ejecuta el script `AcmeDB.sql` para insertar los datos de ejemplo.
+   - Ejecuta el script `AcmeDB.sql` en tu gestor de bases de datos para crear la estructura de la base de datos.
+   - Luego, ejecuta la parte del script `AcmeDB.sql` para insertar los datos de ejemplo.
 
 ## Nota
 
